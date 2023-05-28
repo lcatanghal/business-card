@@ -29,7 +29,6 @@ body {
 
 .text:hover {
         color: #ffffed;
-        animation: bounce 0.3s ease infinite alternate;
 }
 
 @keyframes jump {
