@@ -1,0 +1,43 @@
+body {
+    margin: 20px;
+    font-family: Poppins, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #292826;
+    color: #F9D342;
+    border-bottom: 12px solid #F9D342;
+}
+
+.fontcolor {
+    color: #ffffed;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+.text:hover {
+        color: #ffffed;
+        animation: bounce 0.3s ease infinite alternate;
+}
+
+@keyframes jump {
+  0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+  30%  {transform: translate3d(0,5%,0) scale3d(1,1,1);}
+  50% {transform: translate3d(0,5%,0) scale3d(1,1,);}
+}
+.jump:hover {
+  transform-origin: 50% 50%;
+  animation: jump .5s linear alternate infinite;
+}
